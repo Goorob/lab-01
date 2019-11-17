@@ -1,0 +1,19 @@
+p {
+    text-align: center;
+}
+
+
+@media(min-width: 768px) {
+    #blocka p {
+        padding: 35px ;
+    }
+    #blockb p {
+        padding: 250px ;
+    }
+    #blockc p, #blockd p {
+        padding: 100px ;
+    }
+    #blocki p {
+        padding: 70px ;
+    }  
+}
