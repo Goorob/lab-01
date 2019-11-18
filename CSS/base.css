@@ -10,17 +10,4 @@ body {
     flex-wrap: wrap;
 }
 
-@media(min-width: 768px) {
-    body {
-        width: 960px;
-        display: grid;
-        grid-template-columns: 200px repeat(5, 200px);
-        grid-template-rows: 100px 200px 300px 250px;
-    }
-}
 
-@media(min-width:960px) {
-    body {
-        width: 960px;
-    }
-}
