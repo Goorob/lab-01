@@ -31,3 +31,59 @@ p {
         width: 960px;
     }
 }
+@media(min-width: 768px) {
+    div {
+        background-color: yellow;
+        align-content: center;
+        justify-content: center;
+    }
+    #blocka {
+        height: 200px;
+      
+    }
+    #blockb {
+        height: 700px;
+     
+    }
+    #blockc {
+        height: 300px;
+        
+    }
+    #blockd {
+        height: 300px;
+          
+    }
+    #blocke{
+        height: 260px;
+        width: 100%;
+    
+    }
+    #blockf {
+        height: 260px;
+        width: 100%;
+      
+    }
+    #blockg {
+        height: 260px;
+        width: 100%;
+        
+    }
+    #blockh {
+        height: 260px;
+        width: 100%;
+     
+    }
+    #blocki {
+        height: 100px;
+        width: 100%;
+     
+    }
+}
+
+@media(min-width: 960px) {
+    div {
+        background-color: gray;
+        align-content: center;
+        justify-content: center;
+    }
+}
