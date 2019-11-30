@@ -1,0 +1,89 @@
+p {
+    text-align: center;
+}
+
+
+@media(min-width: 768px) {
+    #blocka p {
+        padding: 35px ;
+    }
+    #blockb p {
+        padding: 250px ;
+    }
+    #blockc p, #blockd p {
+        padding: 100px ;
+    }
+    #blocki p {
+        padding: 70px ;
+    }  
+}
+
+@media(min-width: 768px) {
+    body {
+        width: 960px;
+        display: grid;
+      
+    }
+}
+
+@media(min-width:960px) {
+    body {
+        width: 960px;
+    }
+}
+@media(min-width: 768px) {
+    div {
+        background-color: yellow;
+        align-content: center;
+        justify-content: center;
+    }
+    #blocka {
+        height: 200px;
+      
+    }
+    #blockb {
+        height: 700px;
+     
+    }
+    #blockc {
+        height: 300px;
+        
+    }
+    #blockd {
+        height: 300px;
+          
+    }
+    #blocke{
+        height: 260px;
+        width: 100%;
+    
+    }
+    #blockf {
+        height: 260px;
+        width: 100%;
+      
+    }
+    #blockg {
+        height: 260px;
+        width: 100%;
+        
+    }
+    #blockh {
+        height: 260px;
+        width: 100%;
+     
+    }
+    #blocki {
+        height: 100px;
+        width: 100%;
+     
+    }
+}
+
+@media(min-width: 960px) {
+    div {
+        background-color: gray;
+        align-content: center;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+    color: black;
+}
+
+body {
+    width: 480px;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+

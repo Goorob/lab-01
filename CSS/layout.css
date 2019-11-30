@@ -1,0 +1,23 @@
+div {
+    border: 1px solid black;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+}
+#blocka {
+    height: 50px;
+}
+#blockb{
+    height: 100px;
+}
+#blockc, #blockd {
+    height: 120px;
+}
+#blocke, #blockf, #blockg, #blockh {
+    width: 50%;
+    height: 200px;
+}
+#blocki {
+    height: 70px;
+}
+
