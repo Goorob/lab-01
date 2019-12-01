@@ -5,19 +5,34 @@ div {
     justify-content: center;
 }
 #blocka {
-    height: 50px;
-}
+        background-color: lightslategray;
+        height:100px ;
+        width: 960px;
+    }
+
 #blockb{
-    height: 100px;
+    background-color:pink;
+    height:600px ;
+    width: 200px;
+    float: left;
 }
 #blockc, #blockd {
-    height: 120px;
+    height: 200px;
+    width: 380px;
+    float: left;
+    background-color:grey ;
 }
 #blocke, #blockf, #blockg, #blockh {
-    width: 50%;
-    height: 200px;
+    background-color: grey;
+    float: left;
+    height: 250px;
+   width: 190px;
 }
 #blocki {
-    height: 70px;
-}
+    background-color:grey;
+    float: left;
+    height:150px ;
+    width: 760px;
+   
+ }
 

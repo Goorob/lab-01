@@ -1,84 +1,3 @@
-p {
-    text-align: center;
-}
-
-
-@media(min-width: 768px) {
-    #blocka p {
-        padding: 35px ;
-    }
-    #blockb p {
-        padding: 250px ;
-    }
-    #blockc p, #blockd p {
-        padding: 100px ;
-    }
-    #blocki p {
-        padding: 70px ;
-    }  
-}
-
-@media(min-width: 768px) {
-    body {
-        width: 960px;
-        display: grid;
-      
-    }
-}
-
-@media(min-width:960px) {
-    body {
-        width: 960px;
-    }
-}
-@media(min-width: 768px) {
-    div {
-        background-color: yellow;
-        align-content: center;
-        justify-content: center;
-    }
-    #blocka {
-        height: 200px;
-      
-    }
-    #blockb {
-        height: 700px;
-     
-    }
-    #blockc {
-        height: 300px;
-        
-    }
-    #blockd {
-        height: 300px;
-          
-    }
-    #blocke{
-        height: 260px;
-        width: 100%;
-    
-    }
-    #blockf {
-        height: 260px;
-        width: 100%;
-      
-    }
-    #blockg {
-        height: 260px;
-        width: 100%;
-        
-    }
-    #blockh {
-        height: 260px;
-        width: 100%;
-     
-    }
-    #blocki {
-        height: 100px;
-        width: 100%;
-     
-    }
-}
 
 @media(min-width: 960px) {
     div {
@@ -86,4 +5,81 @@ p {
         align-content: center;
         justify-content: center;
     }
+}
+@media (max-width:747px){
+
+
+    main{
+        width: 480px;
+        height: 767px;
+        position: relative;
+        margin:auto;
+    }
+     
+
+    #blocka {
+        width: 480px;
+        height: 75px;
+        background-color: #aaa;
+        /* line-height: 75px; */
+        
+    }
+    #blockb {
+        width: 480px;
+        height: 150px;
+        background-color: #aaa;
+        /* line-height: 150px; */
+        border-width: 1px 1px 0px 1px;
+
+    
+    }
+    #blockc {
+        width: 480px;
+        height: 125px;
+        background-color: #aaa;
+        line-height: 125px;
+        float: left;
+        border-width: 1px 1px 0px 1px;
+
+    }
+    #blockd {
+        width: 480px;
+        height: 125px;
+        background-color: #aaa;
+        float: left;
+    
+    }
+    #blocke {
+        width: 240px;
+        height: 250px;
+        background-color: rgb(71, 42, 42);
+    
+    }
+    #blockf {
+        width: 240px;
+        height: 250px;
+        background-color:rgb(71, 42, 42);
+        border-width: 1px 1px 0px 1px;
+
+    
+    }
+    #blockg{
+        width: 240px;
+        height: 250px;
+        background-color: rgb(243, 181, 181);
+        float: left;
+    
+    }
+    #blockh {
+        width: 240px;
+        height: 250px;
+        background-color:rgb(243, 181, 181);
+        float: left;
+    }
+    #blocki {
+        width: 480px;
+        height: 80px;
+        background-color: #aaa;
+        float: left;
+    }   
 }
